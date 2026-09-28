@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; script-src &#39;self&#39;; style-src &#39;self&#39; &#39;unsafe-inline&#39; https://fonts.googleapis.com; font-src &#39;self&#39; https://fonts.gstatic.com; img-src &#39;self&#39; data:; connect-src &#39;self&#39;; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;; manifest-src &#39;self&#39;">
+
+    <meta charset="UTF-8" />
+    <!-- Content-Security-Policy wird beim Prod-Build per Vite-Plugin als Meta-Tag injiziert
+         (siehe vite.config.ts); bei einem Netlify-Deploy zusaetzlich als HTTP-Header (netlify.toml + dist/_headers).
+         NICHT hier statisch, da der Dev-Server Inline-Skripte (react-refresh/HMR) nutzt,
+         die eine strikte script-src 'self' blockieren wuerde. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Wall Climber" />
+    <meta name="theme-color" content="#0a0a1a" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/png" href="./icons/icon-192.png" />
+    <link rel="apple-touch-icon" href="./icons/icon-180.png" />
+    <meta name="description" content="Wall Climber – präziser 2D-Parkour-Plattformer: Wand-Kicks, Dashes, 20 Level, 4 Welten, Medaillen und Ghost-Replay." />
+    <title>Wall Climber – 2D Parkour</title>
+    <script type="module" crossorigin src="./assets/index-rGVluyO9.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CLbjJ7IR.css">
+  </head>
+  <body class="bg-[#0a0a1a] select-none touch-none overflow-hidden h-[100dvh]">
+    <div id="root" class="h-full"></div>
+  </body>
+</html>

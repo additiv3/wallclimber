@@ -1,0 +1,17 @@
+{
+  "name": "Wall Climber – 2D Parkour",
+  "short_name": "Wall Climber",
+  "description": "Präziser 2D-Parkour-Plattformer: Wand-Kicks, Dashes, 20 Level, 4 Welten, Medaillen und Ghost-Replay.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#0a0a1a",
+  "theme_color": "#0a0a1a",
+  "lang": "de",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
