@@ -1,7 +1,7 @@
 /* Wall Climber – Service Worker: offline spielbar, online immer die neueste Version.
    Vorlage: das Vite-Plugin in vite.config.ts setzt Cache-Name und Vorab-Liste ein und schreibt dist/sw.js. */
-const CACHE = 'wallclimber-72fe7a0';
-const PRECACHE = ["./","./index.html","./manifest.webmanifest","./icons/icon-180.png","./icons/icon-192.png","./icons/icon-512-maskable.png","./icons/icon-512.png","./assets/index-BmdhqhHu.css","./assets/index-DPBG6ysu.js"];
+const CACHE = 'wallclimber-588980a';
+const PRECACHE = ["./","./index.html","./manifest.webmanifest","./icons/icon-180.png","./icons/icon-192.png","./icons/icon-512-maskable.png","./icons/icon-512.png","./assets/index-DHMeG5VZ.css","./assets/index-DGM4hZEf.js"];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE)
